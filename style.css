@@ -27,6 +27,7 @@
     border-radius: 20px;
     border-top: 2px solid white;
     border-left: 1px solid cyan;
+    display: inline-block;
     
    
 }
@@ -44,8 +45,8 @@
     
 }
 .image:hover{
-    box-shadow: 0 0 5px rgb(255, 255, 255);
-    transition: 1s;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    transition: 0.1s;
 }
 .empresa{
     color:rgb(250, 81, 3);
@@ -140,4 +141,76 @@
     margin-top: 20px;
     margin-bottom: 20px;
     z-index: -1;
+}
+.noticia{
+    width: 150px;
+    height: 270px;
+    background: -moz-radial-gradient(rgb(24, 24, 24),rgba(28, 28, 28),rgba(0, 0, 0));
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-top: 2px solid white;
+    border-left: 1px solid cyan;
+    display: inline-block;
+}
+.title_b{
+    color: rgb(255, 255, 255);
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: left;
+    font-size: 12px;
+    float: left;
+}
+.img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+.fecha{
+    color: orangered;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: left;
+    font-size: 12px;
+    float: left;
+}
+.text{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: left;
+    font-size: 8px;
+    float: left;
+    transform: translateY(20px);
+    opacity: 0;
+}
+.text:hover{
+    background: rgba(0, 187, 255, 0.72);
+    border-radius: 5px;
+    padding: 5px;
+    transform: translateY(0px);
+    transition: 1s;
+    opacity: 1;
+}
+
+
+.pie{
+    width: 100%;
+    margin-top: 50px;
+    height: 20px;
+    background: -moz-radial-gradient(rgb(34, 34, 34),rgb(65, 65, 65),rgb(34, 34, 34));
+    z-index: -1;
+    border-top: 1px solid rgb(44, 44, 44);
+    border-bottom: 2px solid rgb(9, 9, 9);
 }
