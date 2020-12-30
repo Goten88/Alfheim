@@ -1,0 +1,143 @@
+.setup{
+    padding: 0%;
+    margin: 0;
+    background: black;
+    background-image: url(image/fondo.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.title{
+    font-size: 20px;
+    color: rgb(0, 183, 255);
+    text-align: center;
+
+
+   
+}
+
+.tarjeta{
+    width: 500px;
+    height: 300px;
+    background: -moz-radial-gradient(rgb(24, 24, 24),rgba(28, 28, 28),rgba(0, 0, 0));
+    text-align: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-top: 2px solid white;
+    border-left: 1px solid cyan;
+    
+   
+}
+
+.image{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: -200px;
+    border-top: 2px solid white;
+    border-left: 1px solid cyan;
+    margin-top: 20px;
+
+    
+}
+.image:hover{
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    transition: 1s;
+}
+.empresa{
+    color:rgb(250, 81, 3);
+    font-size: 25px;
+    padding: 0;
+    text-shadow: 0 0 3px white;
+}  
+
+   
+
+
+.info{
+    width: 300px;
+    display: inline-block;
+    color: rgb(252, 252, 252);
+    margin-top: -150px;
+    background: rgba(56, 56, 56, 0.186);
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+    text-align: left;
+    font-size: 15px;
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.info:hover{
+    transform: translateX(25px);
+    transition: 1s;
+    opacity: 1;
+    background: rgba(0, 195, 255, 0.3);
+    box-shadow: 0 0 5px rgb(255, 255, 255),0 0 10px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255);
+    transition: 1s;
+    text-shadow: 0 0 5px gray;
+}
+    
+
+.gmail{
+    font-size: 10px;
+    color: white;
+    margin-left: 300px;
+    text-shadow: 0 0 5px gray;
+  
+}
+.perfil{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: -moz-radial-gradient(rgb(24, 24, 24),rgba(28, 28, 28),rgba(0, 0, 0));
+    border-top: 2px solid white;
+    border-left: 1px solid cyan;
+
+   
+
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 50px;
+    border-top: 2px solid white;
+    border-left: 1px solid cyan;
+    padding: 0;
+
+    
+}
+.lastname{
+    font-size: 10px;
+    margin-left: -30px;
+    display: inline-block;
+}
+.name{
+    font-size: 8px;
+    color: white;
+    display: inline-block;
+}
+.code{
+    font-size: 8px;
+    color:white;
+    margin-left: 80px;
+    margin-top: -10px;
+ 
+}
+
+.separador{
+    width: 800px;
+    height: 2px;
+    background: -moz-linear-gradient(rgba(111, 111, 111, 0.1),rgba(0, 208, 255, 0.624),rgba(111, 111, 111, 0.1));
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: -1;
+}
